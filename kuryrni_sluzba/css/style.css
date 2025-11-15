@@ -1,0 +1,26 @@
+body {
+  background-image: url(../img/pozadi.png);
+}
+table{
+    border: 3px solid black;
+}
+th, td {
+  border: 1px solid black;
+  padding: 4px;
+}
+.bila{
+    background-color: whitesmoke;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+.bila:hover{
+    background-color: bisque;
+}
+.zluty{
+    background-color: darkorange;
+    padding: 20px;
+}
+.nadpis{
+    font-size: 18px;
+    font-weight: bold;
+}
