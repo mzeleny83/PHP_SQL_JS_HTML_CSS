@@ -1,0 +1,1 @@
+V lekci 15 jsem delali zadani ustne, ale jinak to bylo vytvorit uvodni stranku s menu (Uvod, Kvetiny, Vydej, Dodej), stranku se seznamem kvetin s tlacitem Vlozit novy, Formular pro vlozeni nove kvetiny, stranku pro seznam Vydejek kde misto Id kvetinu bude jeji nazev.. Jinak databaze je v chatu o kus vyse.
