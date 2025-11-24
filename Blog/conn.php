@@ -2,7 +2,7 @@
     $servername = "localhost";
     $username = "root";
     $password = ""; // Heslo - v XAMPP defaultne prazdne
-    $dbname = "oa__blog"; // Nazev databaze
+    $dbname = "oa_blog"; // Nazev databaze
     $port = 3307;
     // Vytvoreni spojeni
     $conn = mysqli_connect($servername, $username, $password, $dbname, $port);

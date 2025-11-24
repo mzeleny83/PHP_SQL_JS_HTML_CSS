@@ -52,6 +52,10 @@ if (!$post) {
             <p><?php echo $post["datum"]; ?></p>
             <h1><?php echo $post["nadpis"]; ?></h1>
             <pre style="font-size: 20px; white-space: pre-wrap; font-family: Arial, Helvetica, sans-serif;"><?php echo $post["popis"]; ?></pre>
+            <form action="edit.php?id=<?php echo $post["id"]; ?>" method="POST" onsubmit="return confirm('Opravdu chcete smazat tento příspěvek?');" style="margin-top:16px;">
+                <input type="hidden" name="delete" value="true">
+                <button>Smazat</button>
+            </form>
         </div>
     </main>
 
